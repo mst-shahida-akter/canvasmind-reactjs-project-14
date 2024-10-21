@@ -1,3 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#FAFAFA] font-inter;
+  }
+  .cus-container {
+    @apply container mx-auto max-w-[90rem] px-5 py-[2.5rem] md:px-[5rem] lg:px-[8.4375rem] lg:py-[4.375rem];
+  }
+  .inter-100-600-110-2 {
+    @apply font-inter text-[6.25rem] font-semibold leading-[6.875rem] tracking-[-0.125rem];
+  }
+  .inter-56-600-64 {
+    @apply font-inter text-[3.5rem] font-semibold leading-[4rem];
+  }
+  .inter-24-500-32 {
+    @apply font-inter text-[1.5rem] font-medium leading-[2rem];
+  }
+  .inter-24-700 {
+    @apply font-inter text-[1.5rem] font-bold;
+  }
+  .inter-20-400-20-02 {
+    @apply font-inter text-[1.25rem] font-normal leading-[1.25rem] tracking-[-0.0125rem];
+  }
+  .inter-16-400-24-cap {
+    @apply font-inter text-[1rem] font-normal capitalize leading-[1.5rem];
+  }
+  .inter-16-400-26 {
+    @apply font-inter text-[1rem] font-normal leading-[1.625rem];
+  }
+}
