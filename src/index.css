@@ -14,11 +14,25 @@
   .inter-100-600-110-2 {
     @apply font-inter text-[6.25rem] font-semibold leading-[6.875rem] tracking-[-0.125rem];
   }
+  .inter-56-700-70-112 {
+    @apply font-inter text-[3.5rem] font-bold leading-[4.375rem] tracking-[-0.07rem];
+  }
   .inter-56-600-64 {
     @apply font-inter text-[3.5rem] font-semibold leading-[4rem];
   }
   .inter-56-600-110-2 {
     @apply font-inter text-[3.5rem] font-semibold leading-[110%] tracking-[-0.125rem];
+  }
+
+  .inter-48-600-58-cap {
+    @apply font-inter text-[3rem] font-semibold capitalize leading-[3.625rem];
+  }
+  .inter-32-500-32 {
+    @apply font-inter text-[2rem] font-medium leading-[2rem];
+  }
+
+  .inter-30-500-30 {
+    @apply font-inter text-[1.875rem] font-medium leading-[1.875rem];
   }
   .inter-28-600-38-cap {
     @apply font-inter text-[1.75rem] font-semibold capitalize leading-[2.375rem];
@@ -29,14 +43,26 @@
   .inter-24-700 {
     @apply font-inter text-[1.5rem] font-bold;
   }
+  .inter-24-600-120 {
+    @apply font-inter text-[1.5rem] font-semibold leading-[120%];
+  }
+  .inter-24-600-32-cap {
+    @apply font-inter text-[1.5rem] font-semibold capitalize leading-[2rem];
+  }
   .inter-20-400-20-02 {
     @apply font-inter text-[1.25rem] font-normal leading-[1.25rem] tracking-[-0.0125rem];
   }
   .inter-20-500-24 {
     @apply font-inter text-[1.25rem] font-medium leading-[1.5rem];
   }
+  .inter-20-500-26 {
+    @apply font-inter text-[1.25rem] font-medium leading-[1.625rem];
+  }
   .inter-20-700 {
     @apply font-inter text-[1.25rem] font-bold;
+  }
+  .inter-18-500-140 {
+    @apply font-inter text-[1.125rem] font-medium leading-[140%];
   }
   .inter-18-400-30 {
     @apply font-inter text-[1.125rem] font-normal leading-[1.875rem];
@@ -50,11 +76,23 @@
   .inter-16-400-26 {
     @apply font-inter text-[1rem] font-normal leading-[1.625rem];
   }
+  .inter-16-500-26 {
+    @apply font-inter text-[1rem] font-medium leading-[1.625rem];
+  }
   .inter-16-700-140 {
     @apply font-inter text-[1rem] font-bold leading-[140%];
   }
+  .inter-16-500-150 {
+    @apply font-inter text-[1rem] font-medium leading-[150%];
+  }
   .inter-14-400-24 {
     @apply font-inter text-[0.875rem] font-normal leading-[1.5rem];
+  }
+  .inter-14-400-150 {
+    @apply font-inter text-[0.875rem] font-normal leading-[150%];
+  }
+  .inter-14-500-28 {
+    @apply font-inter text-[0.875rem] font-medium leading-[1.75rem];
   }
   .inter-12-400-19 {
     @apply font-inter text-[0.75rem] font-normal leading-[1.1875rem];
