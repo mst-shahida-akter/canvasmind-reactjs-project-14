@@ -4,9 +4,8 @@ import cwImg from "./../../../assets/images/Home/evolutionary-consulting/cw-img.
 import rightBgImg from "./../../../assets/images/Home/evolutionary-consulting/right-bg.png";
 import rightArrowIcon from "./../../../assets/images/Home/evolutionary-consulting/right-arrow.svg";
 import facebookIcon from "./../../../assets/images/Home/evolutionary-consulting/facebook.svg";
-import instagramIcon from "./../../../assets/images/Home/evolutionary-consulting/instagram.svg";//
+// import instagramIcon from "./../../../assets/images/Home/evolutionary-consulting/instagram.svg";
 import twitterIcon from "./../../../assets/images/Home/evolutionary-consulting/twitter.svg";
-
 
 const EvolutionaryConsulting = () => {
   return (
@@ -89,7 +88,7 @@ const EvolutionaryConsulting = () => {
             <div className="flex items-center gap-5">
               <img src={rightArrowIcon} alt="right-arrow-icon" />
               <img src={facebookIcon} alt="facebook-icon" />
-              <img src={instagramIcon} alt="instagram-icon" />
+              {/* <img src={instagramIcon} alt="instagram-icon" /> */}
               <img src={twitterIcon} alt="twitter-icon" />
             </div>
           </div>
