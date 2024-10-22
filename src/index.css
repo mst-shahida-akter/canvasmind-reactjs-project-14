@@ -9,7 +9,7 @@
     @apply bg-[#FAFAFA] font-inter;
   }
   .cus-container {
-    @apply container mx-auto max-w-[90rem] px-5 py-[2.5rem] md:px-[5rem] lg:px-[8.4375rem] lg:py-[4.375rem];
+    @apply container mx-auto max-w-[90rem] px-5 py-[2.5rem] md:px-[5rem] md:py-[3.125rem] lg:px-[8.4375rem] lg:py-[4.375rem];
   }
   .inter-100-600-110-2 {
     @apply font-inter text-[6.25rem] font-semibold leading-[6.875rem] tracking-[-0.125rem];
@@ -98,3 +98,4 @@
     @apply font-inter text-[0.75rem] font-normal leading-[1.1875rem];
   }
 }
+ 

@@ -1,15 +1,16 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <section className="sticky top-0 z-50 bg-[#000]">
+    <section className="bg-[#000]">
       <div className="cus-container !py-7">
         <div className="flex items-center justify-between">
           <div className="">
             <span className="inter-24-600-32-cap text-white">CanvasMind</span>
           </div>
 
-          <div className="flex items-center gap-10">
+          <div className="hidden items-center gap-10 lg:flex">
             {[
               ["Home", "/"],
               ["Features", "/features"],
@@ -28,7 +29,7 @@ const Header = () => {
               );
             })}
           </div>
-          <div className="flex items-center gap-4">
+          <div className="hidden items-center gap-4 lg:flex">
             <Link to="/sign-in" className="inter-16-500-24-cap text-white">
               Sign In
             </Link>
