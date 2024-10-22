@@ -1,5 +1,5 @@
 import facebook from "/src/assets/images/Footer/facebook.svg";
-import instagram from "/src/assets/images/Footer/instagram.svg";
+// import instagram from "/src/assets/images/Footer/instagram.svg";
 import linkedin from "/src/assets/images/Footer/linkedin.svg";
 import youtube from "/src/assets/images/Footer/youtube.svg";
 
@@ -10,7 +10,7 @@ const Footer = () => {
     <section className="bg-[#000]">
       <div className="cus-container">
         <span className="inter-24-600-32-cap text-white">CanvasMind</span>
-        <div className="mb-[3.625rem] mt-4 h-[.0313rem] w-full bg-[#737780]" />
+        <div className="mb-[58px] mt-4 h-[.5008px] w-full bg-[#737780]" />
 
         <div className="flex justify-between gap-10">
           {[
@@ -83,7 +83,7 @@ const Footer = () => {
             },
           ].map(({ title, links }, index) => {
             return (
-              <div key={index} className="space-y-[.875rem]">
+              <div key={index} className="space-y-[14px]">
                 <h4 className="inter-20-500-26 text-white">{title}</h4>
                 <div className="flex flex-col gap-2">
                   {links.map(({ title, link }, index) => {
@@ -102,12 +102,12 @@ const Footer = () => {
             );
           })}
 
-          <div className="max-w-[16.875rem] space-y-[.9375rem]">
+          <div className="max-w-[270px] space-y-[15px]">
             <h4 className="inter-20-500-26 text-white">Newsletter</h4>
             <select
               name=""
               id=""
-              className="inter-14-500-20 min-w-[16.875rem] rounded-full bg-[#737780] p-[14px_20px] text-white"
+              className="inter-14-500-20 min-w-[270px] rounded-full bg-[#737780] p-[.875rem_1.25rem] text-white"
             >
               <option value="">United States</option>
               <option value="">United States</option>
@@ -117,7 +117,7 @@ const Footer = () => {
             <p className="inter-16-500-26 text-white">Follow Us</p>
             <div className="flex gap-2">
               <img src={facebook} alt="facebook" />
-              <img src={instagram} alt="instagram" />
+              {/* <img src={instagram} alt="instagram" /> */}
               <img src={linkedin} alt="linkedin" />
               <img src={youtube} alt="youtube" />
             </div>
@@ -125,7 +125,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-center gap-10 border-t-[1px] border-[#5E5E5E] py-8 text-[#FFF]">
+      <div className="flex justify-center gap-10 border-t-[.0625rem] border-[#5E5E5E] py-8 text-[#FFF]">
         <p className="">© 2023 Relume. All rights reserved.</p>
         <Link to="/privacy-policy" className="inter-14-400-150 underline">
           Privacy Policy
