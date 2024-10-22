@@ -133,7 +133,7 @@ const Footer = () => {
         <Link to="/terms-of-service" className="inter-14-400-150 underline">
           Terms of Service
         </Link>
-        <Link to="/cookies-settings" className="inter-14-400-150 underline">
+        <Link to="/cookies-setting" className="inter-14-400-150 underline">
           Cookies Settings
         </Link>
       </div>
